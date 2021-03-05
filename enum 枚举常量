@@ -1,0 +1,21 @@
+#include <stdio.h>
+	//枚举 - 一一列举
+	//eg:性别：男，女，保密
+
+	//枚举关键 - enum
+
+	enum Sex
+	{
+		MALE,
+		FAMALE,//枚举常量
+		SECRET
+	};
+
+	int main()
+	{
+		//enum Sex s = FAMALE;
+		printf("%d\n",MALE);//0
+		printf("%d\n",FAMALE);//1
+		printf("%d\n",SECRET);//2
+		return 0;
+	}
