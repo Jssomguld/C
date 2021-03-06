@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+//& - 按位与
+//| - 按位或
+//^ - 按位异或
+
+int main()
+{
+	int a = 3;
+	int b = 5;
+	int c = 3&5;//001 - 1
+	int c = 3|5;//111 - 7
+	int c = 3^5;//110 - 6
+	printf("%d\n",c);
+	return 0;
+}
